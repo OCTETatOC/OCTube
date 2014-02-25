@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="row cb-box marginBottom">
+    	<h1 class="alert alert-info">Hello, how do you do ...... ?</h1>
+        <div class="col-md-12">
+            <h2>Latest Videos</h2>
+            <div class="row">
+                {foreach $videos as $video}
+                    <div class="col-md-3 marginBottom">
+                        {include file="$style_dir/blocks/videos/video.html"}
+                    </div>
+                {/foreach}
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,56 @@
+{if $Cbucket->show_page == true}
+<script type="text/javascript" src="{$js}/popup_image.js"></script>
+<h2>Add Placement</h2>
+<!-- Adding Placement Form -->
+<form name="AddPlacement" id="AddPlacement" method="post" action="">
+  
+  <div class="form-group">
+    <label for="placement_name">Placement Name</label>
+    <input class="form-control" name="placement_name" id="placement_name" value="" />
+  </div>
+
+  <div class="form-group">
+    <label for="placement_code">Placement Code</label>
+    <input class="form-control" name="placement_code" value="" id="placement_code"/>
+  </div>
+
+  <div class="form-group">
+    <input class="btn btn-primary" type="submit" name="AddPlacement" value="Submit" id="button"/>
+  </div>
+</form>
+<p class="alert alert-warning">Note: if you delete any placement, all ads under it will be deleted</p>
+
+
+<table class="table table-bordered table-striped">
+  <tr>
+    <td>ID</td>
+    <td>PlacementName</td>
+    <td>PlacementCode</td>
+    <td>TotalAds</td>
+    <td>Action</td>
+  </tr>
+
+  {section name=a_list loop=$ads_placements}
+  {if $ads_placements[a_list].placement_name !=''}
+  <tr>
+    <td>{$ads_placements[a_list].placement_id}</td>
+    <td>{$ads_placements[a_list].placement_name}</td>
+    <td>
+      <strong>
+        {literal}{AD place={/literal}{$ads_placements[a_list].placement}{literal}}{/literal}
+      </strong>
+    </td>
+    <td>{$ads_placements[a_list].total_ads}</td>
+    <td>
+      {if $ads_placements[a_list].disable == no}
+      <a href="?remove={$ads_placements[a_list].placement}">Remove</a>
+      {else}
+      Default Placement
+      {/if}
+    </td>
+  </tr>
+  {/if}
+  {/section}
+</table>
+<!-- Listing Placements End -->   
+{/if}

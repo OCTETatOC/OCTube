@@ -1,0 +1,180 @@
+.main-content, .breadcrumbs{
+    overflow: hidden;
+}
+.widgets-wrap .dragbox {
+    padding: 10px;
+    border: solid 1px #ccc;
+    margin-bottom: 10px;
+}
+
+.widgets-wrap .dragbox .item{
+    margin-bottom: 5px;
+    border: solid 1px #ddd;
+    padding: 5px;
+}
+
+.widgets-wrap .dragbox .stats_subitem{
+    font-weight: normal;
+    font-size: 1.3em;
+}
+
+ul.mainTabs{
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.main_page_div .form-group{
+    border: solid 1px #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.horizontalTabs > li{
+    margin: 0 0 10px 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+.vdo_sets{
+
+}
+
+.vdo_sets strong{
+    padding: 5px;
+}
+
+.vdo_sets span{
+    padding: 5px;
+}
+
+.commentsMenu{
+    overflow: hidden;
+}
+
+.commentsMenu > ul{
+    margin-left: 0;
+}
+
+.formOptions{
+    margin: 10px 0;
+}
+
+.edit_comment{
+    padding-left: 10px;
+}
+
+.vid_opts{
+    padding-left: 10px;
+}
+
+/* Users Styles */
+
+.manageUsersTable{
+
+}
+
+.manageUsersTable .dropdown{
+    text-align: center;
+    padding-right: 0;
+}
+
+.manageUsersTable .dropdown > ul{
+    text-align: left;
+}
+
+.manageUsersTable .oneUserName{
+    font-size: 1.3em;
+}
+
+.manageUsersTable .oneUserImage{
+    margin: 0 5px 5px 0px;
+    float: left;
+    width: 70px;
+}
+
+.manageUsersTable .userInfo{
+    padding: 0px 5px 15px 5px;
+}
+
+.manageUsersTable .userInfo span{
+    float: right;
+}
+
+.manageUsersTable .userStatus{
+
+}
+.manageUsersTable .userStatus span{
+    padding: 3px;
+}
+
+.usersMenuButtons{
+    margin-bottom: 10px;
+    <<<<<<< .mine
+}
+
+
+.flaggedUser{
+    overflow: hidden;
+}
+
+.flaggedUser .flaggedUserInfo{
+    width: 90%;
+}
+
+.flaggedUser .flaggedUserInfo > img{
+    float: left;
+    margin-right: 5px;
+}
+
+.flaggedUser .flaggedUserInfo{
+    float: left;
+    overflow: hidden;
+}
+
+.flaggedUser .flaggedUserInfo .userInfo{
+    margin-left: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+}
+.flaggedUser .flaggedUserInfo .userInfo span.label{
+    float: right;
+}
+
+.flaggedUser .flaggedUserInfo .userStatus{
+    padding: 0 0 0 5px;
+}
+
+.channelSettings label{
+    display: block;
+}
+
+.channelSettings input[type="radio"]{
+    margin-right: 10px;
+    position: relative;
+    top: 2px;
+}
+
+.oneUserImage{
+    width: 60px;
+    float: left;
+}
+
+
+
+.main-container {
+    width: 100%;
+}
+
+.scroll {
+    overflow:auto;
+    width:100%;
+    height:100px;
+    border: 1px;
+    background-color:#fff;
+    font-size:12px;
+    text-align:left
+}
+.addgroup {
+    width: 400px;
+}
